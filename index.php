@@ -34,7 +34,7 @@
                     <p class="deskripsi">Cintai makanan khas Indonesia</p>
                     <h2>Tetap Sehat, Tetap Semangat</h2>
                     <p>Indonesian food has a different taste because many kinds of special spices are mixed, don't believe it? Please try!</p>
-                    <p><a href="pessan.html" class="tbl-pink">Pesan disini</a></p>
+                    <p><a href="pessan.php" class="tbl-pink">Pesan disini</a></p>
                 </div>
             </section>
 
