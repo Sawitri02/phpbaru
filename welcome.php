@@ -19,7 +19,7 @@
         die("Connection Failed: ". $conn -> connect_error);
     }
     $sql = "INSERT INTO data_penjualan (Hari,Tanggal,Kegiatan,curah_hujan,Penjualan)
-    VALUE ('$Hari','$Tanggal','$Kegiatan','$curah_hujan', '$Penjualan')";
+    VALUE ('$firstname', '$lastname', '$email')";
 
     if ($conn -> query($sql) === TRUE) {
         echo "New Records Created Successfully";
@@ -28,7 +28,7 @@
     }
 
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $sql = "SELECT Hari,Tanggal, Kegiatan, curah_hujan, Penjualan FROM data_penjualan"
+    $sql = "SELECT id, firstname, lastname, FROM MyGuests"
     ?>
     </body>
 </html>
