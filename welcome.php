@@ -4,10 +4,11 @@
     Your email address is: <?php echo $_POST["email"]; ?>
 
     $servername="localhost";
-    $username="root";
-    $password="";
-
-    $dbname="mydb";
+    $username="ntirsnwobilwzk";
+    $password="08b4ff182483f29b018680682fda403db0d22af5ec0066844fccbdb45f2a5ec1";
+    $sort="5432";
+        
+    $dbname="dcnqh7lcj6d95o";
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
     $email = $_POST["email"];
